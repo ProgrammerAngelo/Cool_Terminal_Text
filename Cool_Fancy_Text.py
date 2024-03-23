@@ -3,6 +3,13 @@ print("Assignment #3")
 #Pseudocode
 
 #Add pyfiglet to use for fonts
+from pyfiglet import Figlet
+font = Figlet(font="bulbhead")
+font_name = Figlet(font="digital")
+font_job = Figlet(font="digital")
+font_hobby= Figlet(font="digital")
+font_age= Figlet(font="digital")
+font_sex= Figlet(font="digital")
 
 #Add input for name
 name = input("Please enter your Name: ")
